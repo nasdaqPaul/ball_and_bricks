@@ -1,0 +1,9 @@
+# Project exclude paths
+/src/ball.js
+/src/brick.js
+/src/collutionDetection.js
+/src/game.js
+/src/index.js
+/src/input.js
+/src/level.js
+/src/paddle.js

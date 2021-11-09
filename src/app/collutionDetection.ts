@@ -1,5 +1,5 @@
-import Ball from "./ball.js";
-import {GameObject} from "./game.js";
+import Ball from "./ball";
+import {GameObject} from "./game";
 
 export function detectCollusion(ball: Ball, gameObject: GameObject) {
 

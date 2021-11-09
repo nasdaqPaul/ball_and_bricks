@@ -1,0 +1,23 @@
+{
+  "name": "canvas-game",
+  "version": "1.0.0",
+  "description": "A simple ball and bricks game written in Javascript (TypeScript)",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasdaqPaul/ball_and_bricks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nasdaqPaul/ball_and_bricks/issues"
+  },
+  "homepage": "https://github.com/nasdaqPaul/ball_and_bricks#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}

@@ -1,6 +1,6 @@
-import Game, {GameObject} from "./game.js";
-import {Paddle} from "./paddle.js";
-import {detectCollusion} from "./collutionDetection.js";
+import Game, {GameObject} from "./game";
+import {Paddle} from "./paddle";
+import {detectCollusion} from "./collutionDetection";
 
 export default class Ball implements GameObject {
     private readonly ballImage;

@@ -1,7 +1,7 @@
-import Ball from "./ball.js";
-import {Paddle} from "./paddle.js";
-import {InputHandler} from "./input.js";
-import {builtLevel, leve1} from "./level.js";
+import {Paddle} from "./paddle";
+import {InputHandler} from "./input";
+import {builtLevel, leve1} from "./level";
+import Ball from "./ball";
 
 export interface GameObject {
     // TODO: This is a really poor interface, should be refactored
@@ -34,8 +34,8 @@ export default class Game {
 
     constructor(public readonly GAME_WIDTH: number, public readonly GAME_HEIGHT: number) {
         this.gameState = GameState.MENU;
-        this.paddle = new Paddle(this);
         this.ball = new Ball(this);
+        this.paddle = new Paddle(this);
         new InputHandler(this.paddle, this);
     }
 

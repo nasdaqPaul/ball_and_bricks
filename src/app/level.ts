@@ -1,5 +1,5 @@
-import Game from "./game.js";
-import Brick from "./brick.js";
+import Game from "./game";
+import Brick from "./brick";
 
 type Level = Array<number[]>
 

@@ -1,5 +1,5 @@
-import Game, {GameObject} from "./game.js";
-import {detectCollusion} from "./collutionDetection.js";
+import Game, {GameObject} from "./game";
+import {detectCollusion} from "./collutionDetection";
 
 export default class Brick implements GameObject{
     public static readonly WIDTH = 30;

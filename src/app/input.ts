@@ -1,5 +1,5 @@
-import {Paddle} from "./paddle.js";
-import Game from "./game.js";
+import {Paddle} from "./paddle";
+import Game from "./game";
 
 export class InputHandler {
     private paddle: Paddle;
